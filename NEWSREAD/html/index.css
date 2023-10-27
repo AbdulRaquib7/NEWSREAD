@@ -1,0 +1,212 @@
+h1{
+    background-color:black;
+    color:white;
+      text-align:center;
+      font-family: serif;
+        
+  }
+  
+  .heading{
+      background-color: black;
+      padding-top: 50px;
+      
+  }
+  .news{
+    padding: 3% 15%;
+  }
+ .news2{
+  width:150px;height:150px;
+  margin-right: 30px;
+  border-radius: 10px;
+ }
+  
+ 
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: right;
+    
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color:black;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 80%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: black;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 400px) {
+    .text {font-size: 11px}
+  }
+  .mySlides
+  {
+     margin: 25px 25px;
+  }
+  img{
+    width: 50%;
+    
+  }
+  .symbols{
+    width: 30px;height: 30px;
+    position:absolute;
+    left: 600px;
+    top: 80px;
+    
+  }
+  .topnav{
+    padding-top: 30px;
+  }
+  .collapsible {
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align:left;
+    outline: none;
+    font-size: 15px;
+    
+    
+    
+    
+
+    
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color :#2196F3;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+ 
+  
+  
+  .colora{
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AVery_Black_screen.jpg&psig=AOvVaw3lhjQ189X9tEeAgWaNFiKn&ust=1664383193383000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOjF4d60tfoCFQAAAAAdAAAAABAD");
+  }
+ 

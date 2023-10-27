@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8
+  <meta http-equiv=" X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEWS web page</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+  <div class="heading">
+
+    <img class="symbols" src="images/live.jpg" ali="live">
+
+    <h1><i> NEWS READ 🗞️</i></h1>
+
+
+
+
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">Global</a>
+      <a href="#about">Sports</a>
+      <a href="#contact">Help</a>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+
+
+  </div>
+
+  <center>
+    <div class="mySlides fade">
+
+      <div class="numbertext">1 / 7</div>
+      <img src="images/news.jpg">
+
+    </div>
+
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 7</div>
+      <img src="images/news2.jpg">
+
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
+      <img src="images/news3.jpg">
+
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 7</div>
+      <img src="images/news4.jpg">
+
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 7</div>
+      <img src="images/news5.jpg">
+
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 7</div>
+      <img src="images/news6.jpg">
+
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 7</div>
+      <img src="images/news7.jpg">
+
+    </div>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+
+    </div>
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+  </center>
+
+
+  <hr>
+
+  <div class="news">
+    <img class="news2" src="images/news8.jpg" alt="nft album" style="float: left" ;>
+    <h4>TECH</h4>
+    <h2><b>NFT Album: Muse’s “Will Of The People” Makes History</b></h2>
+    <p>British band Muse released their latest album as a Digital Pressing, using Web3 technology like NFTs as part ofIs
+      a limited-edition bundle.</p>
+    <hr>
+
+    <img class="news2" src="images/news9.jpg" alt="news" style="float:right" ;>
+    <h4>BUSINESS</h4>
+    <h2><b>Food And Rent Costs Raise Inflation Amid Falling Gas Prices</b></h2>
+    <p> Food and Rent costs were the main contributors to inflation during the end of summer. Though high gas prices
+      were at the forefront of commuter concern, average gas prices have fallen 26% since June.</p>
+    <hr>
+    <img class="news2" src="images/news10.jpg" alt="nft album" style="float: left" ;>
+    <h4>BUSINESS</h4>
+    <h2><b>Google Hit With €25 Billion Antitrust Lawsuit In EU And UK</b></h2>
+    <p>British and Dutch authorities seek up to €25 billion ($25.4 billion) in damages from Google for illegal
+      advertising practices. Authorities filed the suits on behalf of advertisement publishers in the UK .</p>
+    <hr>
+    <img class="news2" src="images/news11.jpg" alt="news" style="float:right" ;>
+    <h4>NEWS</h4>
+    <h2><b>US Treasury To Push For Significant Crypto Regulation</b></h2>
+    <p>According to WaPo, the Treasury will make four reports on the matter throughout the month, highlighting crypto’s
+      potential dangers. Cryptocurrency fraud is a significant issue at hand.</p>
+    <hr>
+    <img class="news2" src="images/news12.jpg" alt="nft album" style="float: left" ;>
+    <h4>NEWS</h4>
+    <h2><b>India Overtakes United Kingdom Economy, Recession Imminent</b></h2>
+    <p>The United Kingdom economy fell behind India amid grave recession fears. According to BBC, the Bank of England
+      said a recession is inevitable, primarily due to energy costs impacted by Russia.</p>
+    <hr>
+    <img class="news2" src="images/news13.jpg" alt="news" style="float:right" ;>
+    <h4>NEWS</h4>
+    <h2><b>Bill Murray NFT Charity Auction Hacked, $185,000 In ETH Stolen</b></h2>
+    <p>Comedian, actor, and philanthropist Bill Murray raised just over 119 ETH in a recent charity auction. Hours
+      later, hackers made off with the funds raised from the Bill Murray NFT.</p>
+    <hr>
+    <img class="news2" src="images/news14.jpg" alt="nft album" style="float: left" ;>
+    <h4>ENTERTAINMENT</h4>
+    <h2><b>Start A Disney NFT Collection With VeVe And Get Disney+ Free</b></h2>
+    <p>Disney adults with cash to spare and an interest in digital collectibles are in luck! You can start your own
+      Disney NFT collection with VeVe. In honor of Disney+ Day, the third-anniversary celebration. </p>
+    <hr>
+    <img class="news2" src="images/news15.jpg" alt="news" style="float:right" ;>
+    <h4>OPINION</h4>
+    <h2><b>Get Paid For Your Data: The Case For Consumer Compensation</b></h2>
+    <p>As we move further into this age of advanced tech, some questions arise. In this case, the question is: should
+      you get paid for your data? If companies are profiting from your data and interests.</p>
+    <hr>
+    <img class="news2" src="images/news16.jpg" alt="nft album" style="float: left" ;>
+    <h4>SPORTS</h4>
+    <h2><b>Sports World Roundup: MLB, Tokyo Olympics</b></h2>
+    <p> What’s been going on in the sports world? We are beginning to see a return to normalcy. Major League Baseball is
+      in full swing, welcoming back fans, and The Dan Le Batard Show is coming back. </p>
+    <hr>
+    <img class="news2" src="images/news17.jpg" alt="news" style="float:right" ;>
+    <h4>LIFE</h4>
+    <h2><b>Stephen A. Smith’s Hot Take On Shohei Ohtani Proves Sports Media Can Be Toxic</b></h2>
+    <p>Takes like this are a big part of what’s wrong with sports media culture in general. With 24-hour news cycles,
+      saturated markets and a sports lull in the summer months, sports talk shows feel pressured.</p>
+    <hr>
+    <img class="news2" src="images/news18.jpg" alt="nft album" style="float: left" ;>
+    <h4>TECH</h4>
+    <h2><b>Slime Robots, Pig Corneas, And Nuclear Fusion Developments</b></h2>
+    <p>After years of work, scientists at the Chinese University of Hong Kong have developed the first known slime
+      robot. The non-Newtonian fluid device could change many fields.</p>
+    <hr>
+    <img class="news2" src="images/news19.jpg" alt="news" style="float:right" ;>
+    <h4>BUSINESS</h4>
+    <h2><b>Job Market Update: Solid Despite Recession Fears</b></h2>
+    <p>The job market and unemployment have grown recently, sending mixed signals to economists about recession fears.
+      Employers created 315,000 new jobs throughout August.</p>
+    <hr>
+    <img class="news2" src="images/news20.jpg" alt="nft album" style="float: left" ;>
+    <h4>OPINION</h4>
+    <h2><b>Secure Coding Standard: Do We Need One?</b></h2>
+    <p>A software developer found a way to hack a Hyundai car using code found on the internet. How we build software
+      has been changing rapidly in the past few years. </p>
+    <hr>
+    <div class="colora">
+
+
+
+
+      <button type="button" class="collapsible">TOP CATEGORIES</button>
+      <div class="content">
+        <p><b>⚠️India vs South Africa: India look to address death.</b></p>
+      </div>
+      <button type="button" class="collapsible">LATEST NEWS</button>
+      <div class="content">
+        <p><b>⚠️Youth access to mental health care improved under Jake’s Law, but persistent barriers hamper its reach.
+          </b></p>
+      </div>
+      <button type="button" class="collapsible">TRENDING NEWS</button>
+      <div class="content">
+        <p><b>⚠️Former Tata Group Chairman Cyrus mystry died in car accident.</b></p>
+      </div>
+
+      <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div> </div>
+  </div>
+  
+
+</body>
+
+</html>
